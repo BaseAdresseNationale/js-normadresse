@@ -21,7 +21,7 @@ This library exposes a `normalize` method:
 const normalize = require('@etalab/normadresse')
 
 console.log(normalize('BOULEVARD DU MARECHAL JEAN MARIE DE LATTRE DE TASSIGNY'))
-// Output: bd mal j m de LATTRE de TASSIGNY
+// Output: BD MAL J M DE LATTRE DE TASSIGNY
 ```
 
 ## See also
