@@ -1,5 +1,6 @@
 const {readFileSync} = require('fs')
 const parse = require('csv-parse/lib/sync')
+const {deburr} = require('lodash')
 
 const rules = parse(readFileSync('./normadresse.csv'), {
   columns: true
@@ -44,9 +45,7 @@ function selectShortWords(input, output, maxLength) {
 }
 
 function normalize(input, maxLength = 32) {
-  input = input
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
+  input = deburr(input)
     .toUpperCase()
     .replace(/[^A-Z0-9s]/g, ' ')
     .replace(/ {2}/g, ' ')
