@@ -1,16 +1,22 @@
 {
-  "name": "normadresse",
+  "name": "@etalab/normadresse",
   "version": "1.0.0",
   "description": "French Postal Addresses Normalizer",
   "main": "index.js",
-  "repository": "git@github.com:tusbar/js-normadresse.git",
+  "repository": "git@github.com:etalab/js-normadresse.git",
   "author": "Bertrand Marron <bertrand.marron@gmail.com>",
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "csv-parse": "^4.3.1"
   },
   "devDependencies": {
+    "codecov": "^3.1.0",
     "jest": "^24.0.0",
+    "jest-junit": "^6.2.1",
+    "lerna-changelog": "^0.8.2",
     "xo": "^0.24.0"
   },
   "xo": {
@@ -24,5 +30,35 @@
         ]
       }
     ]
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      [
+        "jest-junit",
+        {
+          "output": "reports/tests/junit.xml"
+        }
+      ]
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ]
+  },
+  "changelog": {
+    "cacheDir": ".changelog",
+    "labels": {
+      "bug": ":bug: Bug Fix",
+      "build": ":building_construction: Build Process",
+      "cleanup": ":shower: Cleanup",
+      "documentation": ":memo: Documentation",
+      "enhancement": ":rocket: Enhancement",
+      "performance": ":racehorse: Performance",
+      "security": ":policeman: Security",
+      "dependencies": ":arrow_up: Dependencies"
+    },
+    "repo": "etalab/js-normadresse"
   }
 }
