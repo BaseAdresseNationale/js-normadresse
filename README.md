@@ -18,7 +18,7 @@ $ yarn add @etalab/normadresse
 This library exposes a `normalize` method:
 
 ```js
-const normalize = require('@etalab/cache-control')
+const normalize = require('@etalab/normadresse')
 
 console.log(normalize('BOULEVARD DU MARECHAL JEAN MARIE DE LATTRE DE TASSIGNY'))
 // Output: bd mal j m de LATTRE de TASSIGNY
