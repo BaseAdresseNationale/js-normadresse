@@ -1,0 +1,28 @@
+{
+  "name": "normadresse",
+  "version": "1.0.0",
+  "description": "French Postal Addresses Normalizer",
+  "main": "index.js",
+  "repository": "git@github.com:tusbar/js-normadresse.git",
+  "author": "Bertrand Marron <bertrand.marron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^4.3.1"
+  },
+  "devDependencies": {
+    "jest": "^24.0.0",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "overrides": [
+      {
+        "files": "__tests__/**/*.js",
+        "envs": [
+          "jest"
+        ]
+      }
+    ]
+  }
+}
