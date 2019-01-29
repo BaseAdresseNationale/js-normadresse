@@ -44,7 +44,7 @@ function selectShortWords(input, output, maxLength) {
   return next
 }
 
-function normalize(input, maxLength = 32) {
+function normalize(input, maxLength) {
   input = deburr(input)
     .toUpperCase()
     .replace(/[^A-Z0-9s]/g, ' ')
@@ -203,4 +203,6 @@ function normalize(input, maxLength = 32) {
   return output
 }
 
-module.exports = normalize
+module.exports = function (input, maxLength = 32) {
+  return normalize(input, maxLength).toUpperCase()
+}
