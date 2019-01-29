@@ -1,4 +1,4 @@
-# normadresse [![CircleCI](https://circleci.com/gh/etalab/js-normadresse.svg?style=svg)](https://circleci.com/gh/etalab/js-normadresse)
+# js-normadresse [![CircleCI](https://circleci.com/gh/etalab/js-normadresse.svg?style=svg)](https://circleci.com/gh/etalab/js-normadresse)
 
 > French Postal Addresses Normalizer
 
