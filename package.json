@@ -6,6 +6,9 @@
   "repository": "git@github.com:etalab/js-normadresse.git",
   "author": "Bertrand Marron <bertrand.marron@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "files": [
     "index.js"
   ],
