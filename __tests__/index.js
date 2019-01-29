@@ -43,7 +43,8 @@ describe('normalize', () => {
       ['BOURG SAINT JULIEN DES EGLANTIERS', 'BOURG st JULIEN DES EGLANTIERS'],
       ['CARREFOUR DE L EUROPE PRIX NOBEL DE LA PAIX 2012', 'carr EUROPE PRIX NOBEL PAIX 2012'],
       ['MONTEE DE L EGLISE SAINT PIERRE SAINT PAUL', 'mont DE L egli st pierre st PAUL'],
-      ['VOIE DE LA DECLARATION UNIVERSELLE DES DROITS DE L HOMME', 'VOIE D universelle droits HOMME']
+      ['VOIE DE LA DECLARATION UNIVERSELLE DES DROITS DE L HOMME', 'VOIE D universelle droits HOMME'],
+      ['RUE ALICE DOMON ET LÉONIE DUQUET, SŒUR ALICIA ET SŒUR LÉONIE', 'RUE A D l D S A SOEUR LEONIE']
     ]
 
     for (const [source, expected] of fixtures) {
