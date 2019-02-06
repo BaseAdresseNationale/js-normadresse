@@ -10,7 +10,8 @@
     "test": "jest"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "normadresse.csv"
   ],
   "dependencies": {
     "csv-parse": "^4.3.1",
