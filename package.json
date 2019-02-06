@@ -1,6 +1,6 @@
 {
   "name": "@etalab/normadresse",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "French Postal Addresses Normalizer",
   "main": "index.js",
   "repository": "git@github.com:etalab/js-normadresse.git",
