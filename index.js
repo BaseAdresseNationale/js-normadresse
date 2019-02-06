@@ -1,8 +1,9 @@
+const {join} = require('path')
 const {readFileSync} = require('fs')
 const parse = require('csv-parse/lib/sync')
 const {deburr} = require('lodash')
 
-const rules = parse(readFileSync('./normadresse.csv'), {
+const rules = parse(readFileSync(join(__dirname, 'normadresse.csv')), {
   columns: true
 }).reduce((rules, rule) => {
   const step = parseFloat(rule.etape, 10)
