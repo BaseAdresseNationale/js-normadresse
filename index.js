@@ -119,7 +119,7 @@ function normalize(input, maxLength) {
   for (let i = 1; i < words.length - 1; i++) {
     const word = words[i]
 
-    if (words[i - 1].substring(0, 5) !== 'SAINT') {
+    if (words[i - 1].slice(0, 5) !== 'SAINT') {
       for (const rule of rules[3]) {
         if (new RegExp(`${rule.long}`).test(word)) {
           words[i] = rule.short.toLowerCase()
