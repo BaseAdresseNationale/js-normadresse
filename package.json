@@ -22,7 +22,7 @@
     "jest": "^25.1.0",
     "jest-junit": "^10.0.0",
     "lerna-changelog": "^1.0.0",
-    "xo": "^0.25.3"
+    "xo": "^0.36.1"
   },
   "xo": {
     "semicolon": false,
