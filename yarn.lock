@@ -1427,9 +1427,9 @@ cssstyle@^2.0.0:
     cssom "~0.3.6"
 
 csv-parse@^4.8.5:
-  version "4.8.5"
-  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.8.5.tgz#32e92a0e0acedab141bd5c5a3ad6fc3316f2c72d"
-  integrity sha512-rpsLmlLWJZifmLzZEVGbZ9phWnJyi+cCbCGYr4vX2NaHFtgbmQPFk+WmMkmMkQXgsIUn6CgnK9cTuUAfFjoXbA==
+  version "4.14.2"
+  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-4.14.2.tgz#c1329cff95a99b8773a92c4e62f8bff114b34726"
+  integrity sha512-YE2xlTKtM035/94llhgsp9qFQxGi47EkQJ1pZ+mLT/98GpIsbjkMGAb7Rmu9hNxVfYFOLf10hP+rPVqnoccLgw==
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
