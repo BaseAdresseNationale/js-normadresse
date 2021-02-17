@@ -14,8 +14,8 @@
     "normadresse.csv"
   ],
   "dependencies": {
-    "csv-parse": "^4.8.5",
-    "lodash": "^4.17.15"
+    "csv-parse": "^4.15.1",
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "codecov": "^3.8.1",
