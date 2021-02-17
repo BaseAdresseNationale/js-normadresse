@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "French Postal Addresses Normalizer",
   "main": "index.js",
-  "repository": "git@github.com:etalab/js-normadresse.git",
+  "repository": "https://github.com/etalab/js-normadresse",
   "author": "Bertrand Marron <bertrand.marron@gmail.com>",
   "license": "MIT",
   "scripts": {
